@@ -93,7 +93,7 @@ a{
 }
 
 .each{
-	width:100%;
+	width:96.3%;
 	border-bottom:1px solid black;
 	padding: 15px;
 	display:flex;
@@ -214,6 +214,11 @@ iframe{
 .index-recommend{
 	width:100%;
 }
+
+.index-search-submit{
+	width:100%;
+}
+
 @media all and (min-width:1025px){
 }
 
@@ -230,6 +235,17 @@ iframe{
 	}
 	.contents-recent{
 		width:0%;
+	}
+	.each{
+		padding:0px;
+		margin:0px;
+	}
+	.index-recommend{
+		width:95%
+	}
+	.img-cover{
+		width: 100px;
+		height: 100px;
 	}
 }
 

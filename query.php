@@ -50,7 +50,9 @@ $result = mysqli_query($conn, $sql);
 		</div>
 		<div class="pad-15 search-button">
 			<input type='text' name='input_addr' placeholder="주소">
-			<input type='submit' value='search'>
+			<div class="index-search-submit purple">
+				<input type='submit' value='search'>
+			</div>
 		</div>
 	</form>
 		
